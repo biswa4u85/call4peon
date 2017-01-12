@@ -1,0 +1,5 @@
+SELECT page_settings.iPageId, page_settings.vPageTitle, page_settings.vPageCode, page_settings.eType, page_settings.eStatus
+FROM page_settings
+WHERE isDelete != 1
+ORDER BY page_settings.dtCreated DESC
+LIMIT 10

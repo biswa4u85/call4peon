@@ -1,0 +1,349 @@
+.margin-bottom-none {
+    margin-bottom: 0 !important;
+}
+div.row, ul.row {
+    margin: 0 -7px;
+}
+.row-merge {
+    margin: 0 !important;
+}
+div[class*="col-xs-"], div[class*="col-sm-"], div[class*="col-md-"], div[class*="col-lg-"], li[class*="col-xs-"], li[class*="col-sm-"], li[class*="col-md-"], li[class*="col-lg-"] {
+    padding: 0 7px;
+}
+.widget .row-merge {
+    margin: 0;
+}
+.row-merge {
+    position: relative;
+}
+.row-merge>[class*="col-"] {
+    padding: 0;
+}
+.row-merge>[class*="col-"]~[class*="col-"] {
+    position: static;
+}
+.row-merge>[class*="col-"]~[class*="col-"]:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e2e1e1;
+    content: ""}
+.row-merge.border-top, .row-merge~.row-merge {
+    border-top: 1px solid #e2e1e1;
+}
+.row-merge.border-bottom {
+    border-bottom: 1px solid #e2e1e1;
+}
+.row-merge .fill-column:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    background: #f4f4f4;
+    content: ""}
+@media (min-width:768px) and (max-width:991px) {
+    .row-merge>[class*="col-sm-12"]~[class*="col-sm-12"] {
+        position: relative;
+    }
+    .row-merge>[class*="col-sm-12"]~[class*="col-sm-12"]:after {
+        position: absolute;
+        top: 0;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: 1px;
+        background: #e2e1e1;
+        content: ""}
+}
+div.row, ul.row {
+    margin: 0 -12px;
+}
+.row-merge {
+    margin: 0 !important;
+}
+div[class*="col-xs-"], div[class*="col-sm-"], div[class*="col-md-"], div[class*="col-lg-"], li[class*="col-xs-"], li[class*="col-sm-"], li[class*="col-md-"], li[class*="col-lg-"] {
+    padding: 0 12px;
+}
+
+@media (max-width:991px) {
+    .row-merge>[class*="col-md-"]~[class*="col-md-"] {
+        position: relative;
+    }
+    .row-merge>[class*="col-md-"]~[class*="col-md-"]:after {
+        position: absolute;
+        top: 0;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: 1px;
+        background: #e2e1e1;
+        content: ""}
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.widget {
+    background: #fff;
+    margin: 0 auto 24px;
+    position: relative;
+    border: 1px solid #e2e1e1;
+    box-shadow: 0 3px 0 0 #dbdbdb;
+    -moz-box-shadow: 0 3px 0 0 #dbdbdb;
+    -webkit-box-shadow: 0 3px 0 0 #dbdbdb;
+}
+.widget.row-merge {
+    margin: 0 0 24px !important;
+}
+.widget .tab-content {
+    padding: 0;
+}
+.widget .widget-head {
+    background: #f7f7f7;
+    border-bottom: 1px solid #e2e1e1;
+    text-shadow: 0 1px 0 0 1px 0 #fff;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    padding: 0 14px 0 0;
+    overflow: hidden;
+}
+
+.widget .details {
+    font-size: 8pt;
+    color: #525252;
+}
+.widget .widget-body {
+    padding: 14px;
+}
+.widget .widget-body form {
+    margin: 0;
+}.widget-body-primary div.glyphicons i:before {
+    color: #fff;
+}
+
+.widget.widget-tabs {
+    border-color: #e2e1e1;
+}
+.widget.widget-tabs .tab-content {
+    padding: 0;
+}
+.widget.widget-tabs>.widget-head {
+    background: #fff;
+    border-color: #e2e1e1;
+    overflow: visible;
+}
+.widget.widget-tabs>.widget-head ul {
+    position: relative;
+    overflow: visible;
+    list-style: none;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.widget.widget-tabs>.widget-head ul li {
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    display: block;
+    border-right: 1px solid #e2e1e1;
+}
+.widget.widget-tabs>.widget-head ul li a {
+    width: auto;
+    height: 35px;
+    display: block;
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    color: #525252;
+    text-decoration: none;
+/*    outline:none;*/
+}
+.widget.widget-tabs>.widget-head ul li a i:before {
+    left: 5px;
+    top: 5px;
+    color: #9d9d9d;
+    text-shadow: 0 1px 0 #fff;
+}
+.widget.widget-tabs>.widget-head ul li a.glyphicons {
+    padding: 0 15px 0 35px;
+}
+.widget.widget-tabs>.widget-head ul li.active {
+    height: 36px;
+    background: none repeat scroll 0 0 #28a6d0;
+}
+.widget.widget-tabs>.widget-head ul li.active a {
+    color: #FFFFFF;
+/*    outline:none;*/
+}
+.widget.widget-tabs>.widget-head ul li.active a i:before {
+    color: #505050;
+}
+.widget.widget-tabs>.widget-body.large {
+    padding: 25px;
+}
+@media (max-width:991px) {
+    .widget.widget-tabs.widget-tabs-responsive>.widget-head {
+        height: auto;
+        padding: 0;
+    }
+    .widget.widget-tabs.widget-tabs-responsive>.widget-head ul {
+        display: block;
+        height: auto;
+    }
+    .widget.widget-tabs.widget-tabs-responsive>.widget-head ul li {
+        display: block;
+        float: none;
+        border-right: none;
+        border-bottom: 1px solid #e2e1e1;
+    }
+    .widget.widget-tabs.widget-tabs-responsive>.widget-head ul li:last-of-type {
+        border-bottom: none;
+    }
+}.widget.widget-tabs-double>.widget-head {
+    height: 40px;
+}
+.widget.widget-tabs-double>.widget-head ul {
+    height: 40px;
+}
+.widget.widget-tabs-double>.widget-head ul li, .widget.widget-tabs-double>.widget-head ul li.active {
+    height: 40px;
+    line-height: 20px;
+}
+.widget.widget-tabs-double>.widget-head ul li a, .widget.widget-tabs-double>.widget-head ul li.active a {
+    height: 35px;
+    padding: 5px 0 0;
+}
+.widget.widget-tabs-double>.widget-head ul li a span, .widget.widget-tabs-double>.widget-head ul li.active a span {
+    display: block;
+    line-height: 15px;
+}
+.widget.widget-tabs-double>.widget-head ul li a.glyphicons, .widget.widget-tabs-double>.widget-head ul li.active a.glyphicons {
+    padding: 5px 15px 0 38px;
+}
+.widget.widget-tabs-double>.widget-head ul li a.glyphicons i:before, .widget.widget-tabs-double>.widget-head ul li.active a.glyphicons i:before {
+    left: 4px;
+    top: 9px;
+    font-size: 20px;
+}
+
+.widget.widget-tabs-double-2>.widget-head {
+    border: 1px solid #e2e1e1;
+    border-bottom: none;
+    height: 70px;
+}
+.widget.widget-tabs-double-2>.widget-head.border-bottom {
+    border-bottom: 1px solid #e2e1e1;
+}
+.widget.widget-tabs-double-2>.widget-head ul {
+    height: 70px;
+}
+.widget.widget-tabs-double-2>.widget-head ul li {
+    height: 70px;
+    line-height: 20px;
+}
+.widget.widget-tabs-double-2>.widget-head ul li a {
+    height: 70px;
+    padding: 5px 0 0;
+    text-decoration: none;
+    text-align: center;
+}
+.widget.widget-tabs-double-2>.widget-head ul li a span {
+    display: block;
+    line-height: 30px;
+}
+.widget.widget-tabs-double-2>.widget-head ul li a.glyphicons {
+    padding: 0 15px;
+}
+.widget.widget-tabs-double-2>.widget-head ul li a.glyphicons i {
+    display: block;
+    height: 37px;
+    padding: 13px 0 0;
+    line-height: 24px;
+    text-align: center;
+}
+.widget.widget-tabs-double-2>.widget-head ul li a.glyphicons i:before {
+    left: auto;
+    top: auto;
+    font-size: 24px;
+    position: relative;
+}
+.widget.widget-tabs-double-2>.widget-head ul li.active {
+    height: 70px;
+    background: #fff;
+}
+.widget.widget-tabs-double-2>.widget-head ul li.active a {
+    color: #3695d5;
+}
+.widget.widget-tabs-double-2>.widget-head ul li.active a i:before {
+    color: #3695d5;
+}
+.widget.widget-tabs-double-2>.widget-head ul li:hover {
+    background: #fff;
+    height: 69px;
+}
+.widget.widget-tabs-double-2>.widget-head ul li:hover a {
+    color: #3695d5;
+}
+.widget.widget-tabs-double-2>.widget-head ul li:hover a i:before {
+    color: #3695d5;
+}
+.widget.widget-tabs-double-2>.widget-body {
+    padding: 0;
+}
+.widget.widget-tabs-double-2 .widget-body-regular {
+    padding: 10px;
+    border: 1px solid #e2e1e1;
+}
+.widget.widget-tabs-double-2 .widget-body-regular p:last-child {
+    margin: 0;
+}
+@media (max-width:991px) {
+    .widget.widget-tabs-double-2>.widget-head {
+        height: auto;
+    }
+    .widget.widget-tabs-double-2>.widget-head ul {
+        height: auto;
+    }
+    .widget.widget-tabs-double-2>.widget-head ul li {
+        display: block;
+        float: none;
+    }
+}
+.widget.widget-tabs-vertical .widget-head {
+    border: none;
+    height: auto;
+    padding: 0;
+}
+.widget.widget-tabs-vertical .widget-head ul {
+    display: block;
+    height: auto;
+}
+.widget.widget-tabs-vertical .widget-head ul li {
+    float: none;
+    display: block;
+    border-right: none;
+    border-bottom: 1px solid #e2e1e1;
+}
+.widget.widget-tabs-vertical .widget-head ul li:last-child {
+    border: none;
+}
+.widget.widget-tabs-vertical .widget-body {
+    padding: 0;
+}
+/*.widget.widget-tabs-vertical .widget-body .tab-content {
+    padding: 12px 15px;
+}*/
+.widget.tabs-right .widget-head ul {
+    float: right;
+}
+.widget.widget-tabs>.widget-body .tab-content .tab-pane {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

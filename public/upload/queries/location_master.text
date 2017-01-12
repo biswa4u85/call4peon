@@ -1,0 +1,5 @@
+SELECT location_master.iLocationId, (select vCountry from country where country.iCountryId=location_master.iCountryId) as country, (select vStateName from states where states.iStateId=location_master.iStateId) as state, (select vCityName from city where city.iCityId=location_master.iCityId) as city, (select vAreaName from area where area.iAreaId=location_master.iAreaId) as area, location_master.vLandmark
+FROM location_master
+WHERE iIsDeleted != 1
+ORDER BY location_master.dtUpdatedDate DESC
+LIMIT 10

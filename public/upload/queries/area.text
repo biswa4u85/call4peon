@@ -1,0 +1,5 @@
+SELECT area.iAreaId, area.vAreaName, (select vCityName from city where city.iCityId=area.iCityId) as city, (select vStateName from states where states.iStateId=area.iStateId) as State, (select vCountry from country where country.iCountryId=area.iCountryId) as country, area.eStatus
+FROM area
+WHERE isDelete != 1
+ORDER BY area.dtCreated DESC
+LIMIT 10

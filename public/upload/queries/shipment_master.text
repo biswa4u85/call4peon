@@ -1,0 +1,5 @@
+SELECT shipment_master.iShipmentId, shipment_master.vTitle, shipment_master.vContactNo, DATE_FORMAT(shipment_master.vPreferredDate, "%d-%b-%Y")
+FROM shipment_master
+WHERE iIsDeleted != 1
+ORDER BY shipment_master.dtUpdatedDate DESC
+LIMIT 10

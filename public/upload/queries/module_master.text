@@ -1,0 +1,5 @@
+SELECT module_master.iModuleId, module_master.vModule, module_master.iParentId, module_master.iSequenceOrder, module_master.vMenuDisplay, module_master.eMenuType, module_master.vMainMenuCode, module_master.vSelectedMenu, module_master.eStatus
+FROM module_master
+WHERE isDelete != 1 and eStatus = 'Active'
+ORDER BY module_master.eMenuType asc, module_master.dtCreated DESC
+LIMIT 10

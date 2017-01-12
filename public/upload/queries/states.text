@@ -1,0 +1,5 @@
+SELECT states.iStateId, states.vStateName, (select vCountry from country where country.iCountryId=states.iCountryId) as country, states.eStatus
+FROM states
+WHERE isDelete != 1
+ORDER BY states.dtCreated DESC
+LIMIT 10

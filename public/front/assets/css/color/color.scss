@@ -1,0 +1,1004 @@
+a {
+  &:hover, &:active {
+    color: #08c2f3;
+  }
+  &:not(.nohover):hover i {
+    color: #fff;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+p, a, span, ul, li {
+  color: #999;
+}
+
+body {
+  background: #f7fbfc;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 COLORS
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.white {
+  color: #fff;
+}
+
+.yallow-1 {
+  color: #fecc17;
+}
+
+.yallow-2 {
+  color: #ffd84d;
+}
+
+.blue-1 {
+  color: #08c2f3;
+}
+
+.blue-2 {
+  color: #23ccf9;
+}
+
+.blue-3 {
+  color: #83aae6;
+}
+
+.blue-4 {
+  color: #2f4984;
+}
+
+.green-1 {
+  color: #ccdb38;
+}
+
+/* light green 1*/
+
+.green-2 {
+  color: #02d3a4;
+}
+
+/* dark green 2 */
+
+.green-3 {
+  color: #d6e447;
+}
+
+/* light green 3 */
+
+.green-4 {
+  color: #90d995;
+}
+
+/* light green 4 */
+
+.purpal-1 {
+  color: #ae699a;
+}
+
+.orange-1 {
+  color: #fe7e17;
+}
+
+.red-1 {
+  color: #ed3b3b;
+}
+
+.red-2 {
+  color: #d3381f;
+}
+
+.red-3 {
+  color: #f9a5a3;
+}
+
+.brown-1 {
+  color: #cc7b3a;
+}
+
+.c444 {
+  color: #444;
+}
+
+/* bg colors */
+
+.bgwhite {
+  background: #fff;
+}
+
+.bgblue-1 {
+  background: #08c2f3;
+}
+
+.bgblue-2 {
+  background: #23ccf9;
+}
+
+.bgblue-3 {
+  background: #83aae6;
+}
+
+.bgblue-4 {
+  background: #2f4984;
+}
+
+.bggreen-1 {
+  background: #ccdb38;
+}
+
+.bgyallow-1 {
+  background: #fecc17;
+}
+
+.bgyallow-2 {
+  background: #ffd84d;
+}
+
+.bggreen-2 {
+  background: #02d3a4;
+}
+
+/* dark green */
+
+.bggreen-3 {
+  background: #d6e447;
+}
+
+/* light green 2 */
+
+.bggreen-4 {
+  background: #90d995;
+}
+
+/* light green 4 */
+
+.bgpurpal-1 {
+  background: #ae699a;
+}
+
+.bgorange-1 {
+  background: #fe7e17;
+}
+
+.bgred-1 {
+  background: #ed3b3b;
+}
+
+.bgred-2 {
+  background: #d3381f;
+}
+
+.bgred-3 {
+  background: #f9a5a3;
+}
+
+.bgbrown-1 {
+  background: #cc7b3a;
+}
+
+.bg222 {
+  background: #222;
+}
+
+/* rgba bg colors for listing hover overlay */
+
+.rgba-bgwhite {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.rgba-bgblue-1 {
+  background: rgba(8, 194, 243, 0.8);
+}
+
+.rgba-bgblue-2 {
+  background: rgba(35, 204, 249, 0.8);
+}
+
+.rgba-bgblue-3 {
+  background: rgba(131, 170, 230, 0.8);
+}
+
+.rgba-bgyallow-1 {
+  background: rgba(254, 204, 23, 0.8);
+}
+
+.rgba-bgyallow-2 {
+  background: rgba(255, 216, 77, 0.8);
+}
+
+.rgba-bggreen-1 {
+  background: rgba(204, 219, 56, 0.8);
+}
+
+.rgba-bggreen-2 {
+  background: rgba(2, 211, 164, 0.8);
+}
+
+/* dark green */
+
+.rgba-bgpurpal-1 {
+  background: rgba(174, 105, 154, 0.8);
+}
+
+.rgba-bgorange-1 {
+  background: rgba(254, 126, 23, 0.8);
+}
+
+.rgba-bgred-1 {
+  background: rgba(237, 59, 59, 0.8);
+}
+
+.rgba-brown-1 {
+  background: rgba(204, 123, 58, 0.8);
+}
+
+.rgba-bggreen-3 {
+  background: rgba(214, 228, 71, 0.8);
+}
+
+/* on hover colors */
+
+.hwhite:hover {
+  color: #fff;
+}
+
+.hblue:hover {
+  color: #08c2f3;
+}
+
+.hyallow:hover {
+  color: #fecc17;
+}
+
+/* on hover bg colors */
+
+.hbgwhite:hover {
+  background: #fff;
+}
+
+.hbgblue:hover {
+  background: #08c2f3;
+}
+
+.hbgyallow:hover {
+  background: #fecc17;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 SHADOWS
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.shadow-1 {
+  -webkit-box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.01);
+  &:hover {
+    -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.shadow-2 {
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  &:hover {
+    -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 GENERAL STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.section-title-wrap .title-divider {
+  .line {
+    background: #c4e2ea;
+  }
+  i {
+    color: #c4e2ea;
+  }
+}
+
+.breadcrums p {
+  color: #333;
+}
+
+.contact-form {
+  input {
+    background: #fff;
+    border: 1px solid #e3eff2;
+    &[placeholder] {
+      color: #999;
+    }
+  }
+  textarea {
+    &[placeholder] {
+      color: #999;
+    }
+    background: #fff;
+    height: 160px;
+    border: 1px solid #e3eff2;
+  }
+  .contact-btn {
+    color: #fff;
+    background: #08c2f3;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .input-field:focus {
+    border: 1px solid #08c2f3;
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	HEADER
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	HEADER TOOLBAR	 
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.top-toolbar {
+  border-top: 3px solid #08c2f3;
+  background-color: #f7fbfc;
+  border-bottom: 1px solid #eee;
+  .social-content {
+    .social-links {}
+    ul.social-links li {
+      a {
+        &.linkedin, &.twitter, &.facebook, &.youtube {}
+        &.linkedin:hover, &.twitter:hover, &.facebook:hover, &.youtube:hover {
+          background: #08c2f3;
+          color: #fff;
+        }
+        &.login {}
+      }
+      button {
+        &.register, &:hover {
+          color: #08c2f3;
+        }
+      }
+    }
+  }
+  .top-contact-info ul li {
+    &.toolbar-email {
+      border-right: 1px solid #eee;
+    }
+    &.toolbar-contact {}
+    &.toolbar-email i, &.toolbar-contact i {
+      color: #08c2f3;
+    }
+    a.toolbar-new-listing {
+      background: #08c2f3;
+      color: #fff;
+      &:hover {
+        opacity: .9;
+      }
+    }
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2# MAIN NAVBAR
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.nav-wrapper {
+  background: #fff;
+}
+
+.wsmenu-list {
+  > li > a.active {
+    text-decoration: none;
+    color: #08c2f3;
+  }
+  li a {
+    &:hover:before, &.active:before, &:focus:before, &:hover, &:focus {
+      color: #08c2f3;
+    }
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+   SEARCH FORM
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+#search-form {}
+
+.search-form-wrap {
+  background: #08c2f3;
+  form {
+    .input-field-wrap input.search-form-input, .select-field-wrap {}
+  }
+}
+
+.select-field-wrap select.search-form-select {
+  background: url(../images/form-icon.png) no-repeat;
+  background-color: #fff;
+  background-position: top right;
+  background-repeat: no-repeat;
+  border: 1px solid #eaeaea;
+}
+
+.search-form-wrap form {
+  .select-field-wrap .options {
+    background-color: #fff;
+  }
+  .submit-field-wrap input.search-form-submit {}
+}
+
+/* SEARCH FORM 2 */
+
+#search-form2 {}
+
+.search-form-wrap2 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -1px 0 2px rgba(255, 255, 255, 0.4);
+  form {
+    .input-field-wrap input.search-form-input {}
+    .select-field-wrap {
+      select.search-form-select {
+        background: url(../images/form-icon.png) no-repeat;
+        background-color: #fff;
+        background-position: top right;
+        background-repeat: no-repeat;
+        selected {
+          border: 1px solid #eaeaea;
+        }
+      }
+      .options {
+        background-color: #fff;
+      }
+    }
+    .submit-field-wrap input.search-form-submit {}
+  }
+}
+
+	/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	SERVICES STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.our-services, .services-wrap, .service-box, .service-icon i, .service-title h5, .service-disc p, .location-section, .location-wrapper, .location-entry .figure {}
+
+	/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	LOCATIONS  STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.location-icon {
+  border-right: 1px solid #c4e2ea;
+  i {}
+}
+
+.location-title-disc {}
+
+.location-content-1 {
+  background: rgba(255, 255, 255, 0.15);
+  .location-title-disc {
+    h5, a {
+      color: #fff;
+    }
+  }
+}
+
+.location-entry .figure:hover .location-content-1 {
+  background: rgba(255, 255, 255, 1);
+  .location-title-disc {
+    h5, a {
+      color: #444;
+    }
+  }
+}
+
+.location-content-2 {
+  background: #fff;
+}
+
+	/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	CATEGORY STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.categories-section {}
+
+.category-section-wrap {
+  &.cat-style-1, &.cat-style-2 {}
+  .cat-wrap {
+    background: #fff;
+    h5 i {}
+    .cat-list-wrap ul.cat-list li a {
+      span {}
+      &:hover span, &.view-all {
+        color: #08c2f3;
+      }
+    }
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	FEATURE LISTINGS
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.feature-item {
+  .feature-content {
+    background: #fff;
+  }
+  .figure .feature-overlay .feature-overlay-inner .overlay-content ul.feature-links li a {
+    color: #fff;
+  }
+}
+
+.score-callback {
+  .star-off.fa-star {
+    color: #999;
+  }
+  .star-on.fa-star {
+    color: #f6e200;
+  }
+}
+
+.feature-item .feature-content {
+  .feature-title h6 a, .feature-location a i {
+    color: #444;
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	LISTINGS SECTION
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.add-listing-nav {
+  background: #fff;
+  .nav-tabs > li {
+    a {
+      background: none;
+      &:focus, &:hover {
+        background: none;
+      }
+    }
+    &.active > a {
+      background: none;
+      color: #08c2f3;
+      &:focus, &:hover {
+        background: none;
+        color: #08c2f3;
+      }
+    }
+  }
+}
+
+.view-switcher ul li.active {
+  color: #08c2f3;
+}
+
+.listing-item {
+  background: #fff;
+  .figure .listing-overlay .listing-overlay-inner .overlay-content ul.listing-links li a {
+    color: #fff;
+  }
+}
+
+.score-callback {
+  .star-off.fa-star {
+    color: #999;
+  }
+  .star-on.fa-star {
+    color: #f6e200;
+  }
+}
+
+.listing-item .listing-content {
+  .listing-title h6 a, .listing-location a i {
+    color: #444;
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BLOG SECTION
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.blog-wrapper {}
+
+.blog-entry {
+  .figure img {}
+  .entry-content {
+    background: rgba(17, 17, 17, 0.7);
+    .entry-title h6 {
+      color: #fff;
+    }
+    .entry-metas a {
+      &.date, &.love, &.permalink {}
+    }
+  }
+}
+
+	/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	CALLOUT  STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.callout-section {
+  background: url(../images/callout-bg.jpg) no-repeat;
+}
+
+.callout-wrapper {}
+
+.callout-1 {
+  border: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+.callout-section a:hover {
+  color: #fff;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	PRICING PLAN STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.pricing {
+  background: #fff;
+}
+
+.price-plan {
+  .price, .currency {}
+}
+
+.pricing {
+  .popular-tag {
+    border: 3px solid #fff;
+  }
+  .pricing-content ul li {
+    border-top: 1px solid #eee;
+    &:last-child {
+      border-bottom: 1px solid #eee;
+    }
+  }
+}
+
+.style-2 .pricing .pricing-content ul li {
+  &:last-child {
+    border-bottom: none;
+  }
+  &:first-child {
+    border-top: none;
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	SOCIAL STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.social-wrap {}
+
+.social-slider li a:hover {
+  color: #fff;
+}
+
+/* social style 2 */
+
+.social-section.style-2 {
+  .social-wrap .social-connect h5 {
+    color: #fff;
+  }
+  background: #2d2d2d;
+  .social-links ul li.item a {
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #555;
+    &:hover {
+      border: 1px solid #444;
+      color: #08c2f3;
+      i {
+        color: #08c2f3;
+      }
+    }
+  }
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BUTTON STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.btn-1 a:hover {
+  color: #fff;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	SIDEBAR STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.sidebar, .sidebar-wrap {}
+
+.sidebar .sidebar-wrap a:hover {
+  color: #444;
+  span {
+    color: #444;
+  }
+}
+
+.sidebar-widget {
+  background: #fff;
+}
+
+.sidebar-widget-title h5 span, .sidebar-widget-content {}
+
+/* recent post widget */
+
+.sidebar {
+  .recent-post .recent-entry-content p {
+    &.recent-entry-title a {
+      color: #444;
+    }
+    &.recent-entry-meta {
+      color: #08c2f3;
+    }
+  }
+  .recent-reviews .recent-review-content p {
+    &.recent-review-title a {
+      color: #444;
+    }
+    &.recent-review-meta {
+      color: #08c2f3;
+    }
+  }
+  .sidebar-tag-cloud ul li a {
+    background: #f7fbfc;
+    &:hover {
+      background: #08c2f3;
+      color: #fff;
+    }
+  }
+  .sidebar-search-wrap form input {
+    &.sidebar-search-input {
+      color: #999;
+    }
+    &.sidebar-search-btn {
+      background: url(../images/search-icon.png) no-repeat;
+    }
+  }
+  .sidebar-listing-search-wrap form {
+    select.sidebar-listing-search-select {
+      background: url(../../images/form-icon-2.png) no-repeat;
+      background-position: 100.3% -1px;
+      background-repeat: no-repeat;
+      background-color: #f7fbfc;
+      box-shadow: 0 0 0 1px #deeef2;
+      selected {
+        border: 1px solid #eaeaea;
+      }
+      option {
+        background-color: #fff;
+      }
+    }
+    input {
+      &.sidebar-listing-search-input {
+        background-color: #f7fbfc;
+        box-shadow: 0 0 1px 1px #deeef2;
+      }
+      &.sidebar-listing-search-btn {}
+    }
+  }
+  .sidebar-category-widget-wrap ul li a:hover, .sidebar-location-widget-wrap ul li a:hover {
+    color: #444;
+    span {
+      color: #444;
+    }
+  }
+}
+
+/* recent reviews widget */
+
+/* recent Reviews widget */
+
+/* recent search form sidebar widget */
+
+/* listing search form sidebar widget */
+
+/* sidebar category list widget */
+
+/* sidebar location list widget */
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	GOOGLE MAP STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.infobox-wrap .infobox-rattings i {
+  color: #f7c201;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	15 FUNFACTS COUNTER
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+#funfact {
+  background: url(../images/funfacts-bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#funfact-1 {
+  .color-1 {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .color-2 {
+    background: #151515;
+  }
+  .color-3 {
+    background: #191919;
+  }
+  .color-4 {
+    background: #222222;
+  }
+}
+
+.count, .funfact > p {
+  color: #fff;
+}
+
+.funfact-divider {
+  background: #fff;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 CONTACT  STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.info-box .info-icon {}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 FOOTER STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.footer-widget-title h5 {
+  color: #fff;
+  &:before {
+    color: #fecc17;
+    background: #fecc17;
+  }
+}
+
+.footer-main .row div:first-child .footer-widget-title h5:before {
+  color: #08c2f3;
+  background: #08c2f3;
+}
+
+.footer-recent-post {
+  border-bottom: 1px solid #333;
+}
+
+.footer-intro a {
+  color: #08c2f3;
+}
+
+.footer-recent-post-caption p.date {
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #151515;
+}
+
+.footer-copyright p a {
+  color: #08c2f3;
+}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BLOG PAGES
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.entry-wrap {
+  background: #fff;
+  .entry-figure img {}
+  .entry-content {
+    .entry-title h4 {}
+    .entry-metas ul li {
+      a, i {}
+    }
+    .entry-disc p {}
+    .entry-readmore a:hover {
+      color: #fff;
+    }
+  }
+}
+
+.comment-content .reply {
+  color: #08c2f3;
+}
+
+/*---------------------------------listing  PAGES-----------------------------------*/
+
+.single-listing-scroller {
+  border-bottom: 3px solid #08c2f3;
+}
+
+.listing-main-content {
+  background: rgba(17, 17, 17, 0.7);
+  h4 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    i {}
+  }
+  .social ul li a {}
+}
+
+.score-callback {
+  .fa-star {
+    color: #333;
+  }
+  .fa-star-o {
+    color: #a1b1b1;
+  }
+}
+
+.listing-single .tabs .tab-link {
+  &:hover, &.current {}
+}
+
+.listing-owner-content a.view-profile:hover {
+  color: #fff;
+}
+
+/* single listing feature section*/
+
+.listing-feature-section {
+  background: #fff;
+}
+
+.listing-feature-section-title, .listing-feature-wrapper {}
+
+.feature-field {
+  background: #f7fbfc;
+  border: 1px solid #deeef2;
+  i, p {}
+}

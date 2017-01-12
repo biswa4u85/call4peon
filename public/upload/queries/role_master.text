@@ -1,0 +1,5 @@
+SELECT role_master.iRoleId, role_master.vRole, role_master.vRoleCode, role_master.eRoleType, role_master.eStatus
+FROM role_master
+WHERE isDelete != 1
+ORDER BY role_master.iRoleId ASC
+LIMIT 10

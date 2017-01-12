@@ -1,0 +1,5 @@
+SELECT city.iCityId, city.vCityName, (select vStateName from states where states.iStateId=city.iStateId) as State, (select vCountry from country where country.iCountryId=city.iCountryId) as country, city.eStatus
+FROM city
+WHERE isDelete != 1
+ORDER BY city.dtCreated DESC
+LIMIT 10

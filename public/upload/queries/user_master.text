@@ -1,0 +1,5 @@
+SELECT user_master.iUserId, concat(user_master.vFirstName, " ", user_master.vLastName) as name, user_master.vEmail, user_master.vContactNo
+FROM user_master
+WHERE iIsDeleted != 1
+ORDER BY user_master.dtUpdatedDate DESC
+LIMIT 10

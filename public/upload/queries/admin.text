@@ -1,0 +1,5 @@
+SELECT admin.iAdminId, admin.vName, admin.vEmail, admin.vUserName, admin.iRoleId, admin.eStatus
+FROM admin
+WHERE isDelete != 1
+ORDER BY admin.dtCreated DESC
+LIMIT 10

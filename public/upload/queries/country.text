@@ -1,0 +1,5 @@
+SELECT country.iCountryId, country.vCountry, country.vCountryCode, country.vCountryCodeISO_3, country.vInternetCode, country.eStatus
+FROM country
+WHERE isDelete != 1
+ORDER BY country.dtCreated DESC
+LIMIT 10
