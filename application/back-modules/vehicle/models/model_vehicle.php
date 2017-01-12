@@ -80,7 +80,7 @@ class Model_vehicle extends CI_Model {
 //        echo $this->db->last_query();exit;
         $this->session->set_userdata(array('query' => $this->db->last_query()));
         $this->db->flush_cache();
-        print_r($list_data);
+        //print_r($list_data);
         return $list_data;
     }
 

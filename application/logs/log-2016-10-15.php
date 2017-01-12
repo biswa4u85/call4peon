@@ -11,3 +11,7 @@ ERROR - 2016-10-15 09:14:53 --> Severity: Notice  --> Use of undefined constant 
 ERROR - 2016-10-15 09:14:53 --> Severity: Notice  --> Use of undefined constant tContent - assumed 'tContent' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 639
 ERROR - 2016-10-15 09:14:53 --> Severity: Notice  --> Use of undefined constant vPageTitle - assumed 'vPageTitle' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 637
 ERROR - 2016-10-15 09:14:53 --> Severity: Notice  --> Use of undefined constant tContent - assumed 'tContent' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 639
+ERROR - 2016-10-15 15:43:04 --> Severity: Notice  --> Use of undefined constant vPageTitle - assumed 'vPageTitle' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 637
+ERROR - 2016-10-15 15:43:04 --> Severity: Notice  --> Use of undefined constant tContent - assumed 'tContent' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 639
+ERROR - 2016-10-15 19:21:16 --> Severity: Notice  --> Use of undefined constant vPageTitle - assumed 'vPageTitle' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 637
+ERROR - 2016-10-15 19:21:17 --> Severity: Notice  --> Use of undefined constant tContent - assumed 'tContent' /home3/ibubbuwf/public_html/call4peon.com/application/front-modules/content/views/index.php 639

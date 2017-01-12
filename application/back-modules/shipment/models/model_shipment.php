@@ -17,10 +17,13 @@ class Model_shipment extends CI_Model {
         if ($tbl == '') {
             $tbl = $this->main_table;
         }
-    
+        foreach ($data as $key => $value) {
+            $this->db->set($key, $value);
+        }
 
-        $this->db->insert($tbl, $data);
+        $this->db->insert($tbl);
         $insert_id = $this->db->insert_id();
+        //pr($insert_id);
         //echo $this->db->last_query();exit;
         return $insert_id;
     }

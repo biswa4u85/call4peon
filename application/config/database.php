@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'root';
-$db['default']['database'] = 'demo_tutor';
+$db['default']['username'] = 'ibubbuwf_site';
+$db['default']['password'] = 'Site123!';
+$db['default']['database'] = 'ibubbuwf_call4peon';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
